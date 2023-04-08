@@ -1,0 +1,17 @@
+{
+	/*
+	json ALWAYS starts with {} at top, uses " " NEVER ' '
+	*/
+	"users": [
+		{
+			"id": 1,
+			"username": "bleek42",
+			"password": "6yfd7auhsbsdfmaj77"
+		}, // trailing commas needed also, except for last key in object like password above ^
+		{
+			"id": 2,
+			"username": "haileycflora",
+			"password": "8uenfkjsbdiujoewr" // we could secure passwords like this with crypto module - in real world apps, dont save passwords in plain text they are secures with hashing algorithms
+		}
+	]
+}

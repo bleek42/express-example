@@ -1,0 +1,8 @@
+# ALWAYS IGNORE THESE
+.vscode/
+node_modules/
+*.env
+# ignore all .env file exts EXCEPT !example.env
+!example.env
+# macOS finder app makes these..
+.DS_store
